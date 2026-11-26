@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KI-Logbuch zum PIXELVERSE Gaming-Art-Ausstellungsprojekt">
+  <title>KI-Logbuch | PIXELVERSE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <a class="back-link" href="index.html" aria-label="Zurück zur Website">← PIXELVERSE</a>
+      <div class="pixel pixel-one"></div>
+      <div class="pixel pixel-two"></div>
+      <p class="eyebrow">PROJEKTDOKUMENTATION</p>
+      <h1>KI-<span>LOGBUCH</span></h1>
+      <p class="subtitle">PIXELVERSE – Website zur Eröffnung einer Gaming-Kunstausstellung</p>
+      <div class="hero-line"></div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <span class="section-tag">01 / DOKUMENTATION</span>
+      <h2>Mein Weg zur PIXELVERSE-Website</h2>
+      <p>In diesem Logbuch dokumentiere ich, wie ich KI bei der Entwicklung meiner Website eingesetzt habe, welche Werkzeuge ich verwendet und wie ich die Ergebnisse überprüft habe.</p>
+    </section>
+
+    <section class="log-section">
+      <h2><span>01</span> Mein Los und was ich daraus gemacht habe</h2>
+      <p>Meine Aufgabe war es, eine Website für die Eröffnung einer Ausstellung für Gamer:innen zu gestalten. Daraus habe ich <strong>PIXELVERSE</strong> entwickelt: eine futuristische Gaming-Ausstellung in Berlin mit pixeligen und 3D-inspirierten Gestaltungselementen, Neonfarben und Informationen zum Event am <strong>17. April 2027</strong>. Mit Unterstützung der KI habe ich die Website-Dateien erstellt und anschließend den Countdown sowie ein passendes animiertes GIF ergänzt.</p>
+    </section>
+
+    <section class="log-section">
+      <h2><span>02</span> Verwendete Werkzeuge</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Werkzeug</th><th>Verwendung</th></tr></thead>
+          <tbody>
+            <tr><td>ChatGPT</td><td>Ideenfindung, Aufbau und Erstellung von HTML-, CSS- und JavaScript-Code; Hilfe bei Fehlern und beim Einbau des Countdowns.</td></tr>
+            <tr><td>KI-Bildgenerierung</td><td>Erstellung eines futuristischen Pixel-Portals als visuelles Element für die Website.</td></tr>
+            <tr><td>GitHub / GitHub Pages</td><td>Hochladen der Website-Dateien und Veröffentlichen der Website.</td></tr>
+            <tr><td>Browser</td><td>Öffnen und Prüfen der Website sowie Kontrolle, ob die Inhalte angezeigt werden.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="log-section">
+      <h2><span>03</span> Drei wichtige Prompts</h2>
+      <p>Die folgenden Formulierungen sind aus meinen tatsächlich gestellten Anfragen zum Projekt übernommen:</p>
+      <div class="prompts">
+        <blockquote>„Erstelle mir alle Dateien“</blockquote>
+        <blockquote>„Kannst du mir da noch einen Timer an einer sinnvollen Stelle auf der Startseite einfügen der auch funktioniert und abläuft“</blockquote>
+        <blockquote>„Ich brauche jetzt auch noch ein GIF in dieser Datei das passt könntest du da was machen“</blockquote>
+      </div>
+    </section>
+
+    <section class="log-section">
+      <h2><span>04</span> Drei Stellen, an denen die KI danebenlag – und meine Korrekturen</h2>
+      <div class="correction">
+        <h3>1. Dateien und Veröffentlichung</h3>
+        <p>Beim Hochladen wurde die Website zunächst nicht richtig angezeigt. Die Ursache lag wahrscheinlich an der Ordnerstruktur: GitHub Pages erwartet die index.html im veröffentlichten Hauptverzeichnis. Ich habe die Struktur kontrolliert und musste darauf achten, dass Startdatei und zugehörige Ordner am richtigen Ort liegen.</p>
+      </div>
+      <div class="correction">
+        <h3>2. Countdown-Zeit</h3>
+        <p>Im Verlauf wurden unterschiedliche Uhrzeiten genannt (14:00 Uhr und 18:00 Uhr). Für die Veranstaltung ist 18:00 Uhr angegeben. Deshalb muss der Timer auf den tatsächlichen Veranstaltungsbeginn eingestellt und im Browser kontrolliert werden.</p>
+      </div>
+      <div class="correction">
+        <h3>3. GIF und Einbindung</h3>
+        <p>Eine Bildvorschau ist nicht automatisch eine fertige, korrekt eingebundene GIF-Datei. Deshalb musste darauf geachtet werden, dass tatsächlich eine animierte GIF-Datei im Website-Ordner liegt und der Dateipfad im HTML stimmt.</p>
+      </div>
+    </section>
+
+    <section class="log-section">
+      <h2><span>05</span> Wie ich geprüft habe</h2>
+      <p>Ich habe die Website im Browser geöffnet und beim Hochladen über GitHub Pages kontrolliert, ob die Startseite und die Dateien erreichbar sind. Dabei fiel das Problem mit der Ordnerstruktur auf. Für die weitere Kontrolle eignen sich diese Werkzeuge:</p>
+      <ul class="check-list">
+        <li><strong>HTML-Validator (z. B. W3C Validator):</strong> prüft den HTML-Code auf Syntax- und Strukturfehler.</li>
+        <li><strong>Lighthouse in den Chrome-Entwicklertools:</strong> gibt Hinweise zu Leistung, Barrierefreiheit, Best Practices und Suchmaschinenfreundlichkeit.</li>
+        <li><strong>Browser- und Mobilansicht:</strong> prüft, ob Navigation, Bilder, GIF und Countdown auf verschiedenen Bildschirmgrößen funktionieren.</li>
+      </ul>
+      <p class="note"><strong>Hinweis:</strong> Konkrete Prüfberichte oder Messwerte liegen mir nicht vor. Validator- und Lighthouse-Tests müssen deshalb noch selbst durchgeführt und die Ergebnisse ergänzt werden.</p>
+    </section>
+
+    <section class="conclusion">
+      <span class="section-tag">06 / FAZIT</span>
+      <h2>Was ich daraus mitnehme</h2>
+      <p>Die KI hat mir vor allem beim Erstellen des Grundgerüsts und beim Entwickeln zusätzlicher Funktionen geholfen. Die Gestaltung, das Prüfen der Dateien und das Beheben von Problemen bleiben aber meine Aufgabe.</p>
+    </section>
+
+    <div class="pdf-link">
+      <div>
+        <strong>Logbuch als PDF</strong>
+        <p>Die ursprüngliche PDF-Version öffnen oder speichern.</p>
+      </div>
+      <a href="logbuch.pdf" target="_blank" rel="noopener">PDF öffnen ↗</a>
+    </div>
+  </main>
+
+  <footer>
+    <span>PIXELVERSE · KI-LOGBUCH</span>
+    <span>GAMING ART EXHIBITION · BERLIN</span>
+  </footer>
+</body>
+</html>
